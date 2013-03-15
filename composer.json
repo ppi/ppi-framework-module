@@ -1,0 +1,33 @@
+{
+    "name": "ppi/framework-module",
+    "description": "MVC module for PPI2",
+    "homepage": "https://github.com/ppi/ppi-framework-module",
+    "license": "MIT",
+    "keywords": ["php", "framework", "ppi", "module"],
+    "authors": [
+        {
+            "name": "Paul Dragoonis",
+            "email": "paul@ppi.io"
+        },
+        {
+            "name": "Vítor Brandão",
+            "email": "vitor@ppi.io"
+        },
+        {
+            "name": "Community contributions",
+            "homepage": "https://github.com/ppi/ppi-framework-module/contributors"
+        }
+    ],
+    "support": {
+        "irc": "irc://irc.freenode.org/ppi",
+        "issues": "https://github.com/ppi/ppi-framework-module/issues"
+    },
+    "require": {
+        "ppi/framework": "2.1.x-dev"
+    },
+    "autoload": {
+        "psr-0": { "PPI\\FrameworkModule": "" }
+    },
+    "target-dir": "PPI/FrameworkModule",
+    "minimum-stability": "dev"
+}
