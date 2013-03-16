@@ -1,5 +1,5 @@
-PPI Framework Module
-===========================
+![PPI](https://si0.twimg.com/profile_images/1410223313/ppi-logo_bigger.png) PPI Framework Module
+========================================================================================================================
 
 [@php]: http://php.net/ "PHP: Hypertext Preprocessor"
 [@ppi]: http://ppi.io/  "The PPI Framework - A meta-framework built using Symfony2/ZendFramework2 and Doctrine2"
@@ -31,7 +31,7 @@ curl -s http://getcomposer.org/installer | php
 ```js
 {
     "require": {
-        "ppi/ppi-framework-module": "dev-master"
+        "ppi/framework-module": "dev-master"
     }
 }
 ```
@@ -46,17 +46,12 @@ Composer will install the module to your project's `vendor/ppi` directory.
 
 ### 2. Enable the module
 
-Enable this module by editing `app/config/modules.php`:
+Enable this module by editing `app/config/modules.yml`:
 
-``` php
-<?php
-return array(
-    'modules' => array(
-        // ...
-        'PPIFrameworkModule',
-    ),
-    // ...
-);
+``` yml
+modules:
+    - Distribution
+    # ...
 ```
 
 License
