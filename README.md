@@ -1,5 +1,5 @@
-![PPI](https://si0.twimg.com/profile_images/1410223313/ppi-logo_bigger.png) PPI Framework Module
-========================================================================================================================
+PPI Framework Module
+====================
 
 [@php]: http://php.net/ "PHP: Hypertext Preprocessor"
 [@ppi]: http://ppi.io/  "The PPI Framework - A meta-framework built using Symfony2/ZendFramework2 and Doctrine2"
@@ -50,7 +50,7 @@ Enable this module by editing `app/config/modules.yml`:
 
 ``` yml
 modules:
-    - Distribution
+    - PPI\FrameworkModule
     # ...
 ```
 
